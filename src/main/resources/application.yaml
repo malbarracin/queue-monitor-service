@@ -1,0 +1,19 @@
+server:
+  port: ${SERVICE_PORT:8081}
+
+
+spring:
+  websocket:
+    enabled: true
+    
+monitor:
+  aws:
+    sqs-url: ${SQS_ORDERS:http://localhost:4566/000000000000/message-to-sqs.fifo}
+    
+  cloud:
+    aws:
+      region:
+        static: ${DEFAULT_REGION:us-east-1}
+      credentials:
+        accessKey: ${AWS_ACCESS_KEY_ID:test}
+        secretKey: ${AWS_SECRET_ACCESS_KEY:test}      

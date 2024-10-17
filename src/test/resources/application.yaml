@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  webflux:
+    base-path: /user-service
+
+logging:
+  level:
+    root: info
+    reactor.netty.http.client: debug
