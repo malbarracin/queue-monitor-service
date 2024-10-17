@@ -48,7 +48,7 @@ Asegúrate de que la cola SQS ya esté creada en LocalStack desde el proyecto an
 http://localhost:4566/000000000000/message-to-sqs.fifo
 ```
 
-###Ejecutar el proyecto
+### Ejecutar el proyecto
 
 Una vez que la cola SQS esté levantada, puedes ejecutar el servicio Spring Boot que monitorea la cola y envía los mensajes a través de WebSocket.
 
