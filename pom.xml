@@ -64,7 +64,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>user-service</finalName>
+		<finalName>queue-monitor-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
